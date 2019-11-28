@@ -1,5 +1,11 @@
-$ helm install stable/weave-scope --name weave
 
+## install weave-scope visualizer
+```
+$ helm install stable/weave-scope --name weave
+```
+
+## Result
+```
 NAME:   weave
 LAST DEPLOYED: Thu Nov 28 22:46:21 2019
 NAMESPACE: default
@@ -58,3 +64,4 @@ then browsing to http://localhost:8080/.
 For more details on using Weave Scope, see the Weave Scope documentation:
 
 https://www.weave.works/docs/scope/latest/introducing/
+```
