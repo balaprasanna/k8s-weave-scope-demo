@@ -72,3 +72,5 @@ https://www.weave.works/docs/scope/latest/introducing/
 ```
  kubectl -n default port-forward $(kubectl -n default get endpoints weave-weave-scope -o jsonpath='{.subsets[0].addresses[0].targetRef.name}') 8080:4040
 ```
+
+!http://localhost:8080/
